@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="14008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 QVision  for IPE-Quench Detection System UNIQD Typ 3410/3420.
 
@@ -22,47 +21,46 @@ Dr. Holger Brand, RBEE, Planckstr.1, 64291 Darmstadt, Germany
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Private/Default Instrument Setup.vi"/>
-		<Item Name="Transaction.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Private/Transaction.vi"/>
-		<Item Name="Calculate Checksum.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Private/Calculate Checksum.vi"/>
-		<Item Name="Proof Checksum.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Private/Proof Checksum.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+		<Item Name="Transaction.vi" Type="VI" URL="../Private/Transaction.vi"/>
+		<Item Name="Calculate Checksum.vi" Type="VI" URL="../Private/Calculate Checksum.vi"/>
+		<Item Name="Proof Checksum.vi" Type="VI" URL="../Private/Proof Checksum.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name="Action-Status.mnu" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Action-Status.mnu"/>
-			<Item Name="Acknowldge Error.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Acknowldge Error.vi"/>
-			<Item Name="Acknowldge Quench.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Acknowldge Quench.vi"/>
-			<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Start.vi"/>
-			<Item Name="Quench.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Quench.vi"/>
-			<Item Name="Stop.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Stop.vi"/>
-			<Item Name="Auto Mute.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Auto Mute.vi"/>
-			<Item Name="Enable Mute.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Enable Mute.vi"/>
-			<Item Name="Mute All.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Mute All.vi"/>
-			<Item Name="Temperature.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Temperature.vi"/>
-			<Item Name="Rack Status.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Rack Status.vi"/>
-			<Item Name="Detector Status.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Detector Status.vi"/>
-			<Item Name="Hardware Status.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Action-Status/Hardware Status.vi"/>
+			<Item Name="Acknowldge Error.vi" Type="VI" URL="../Public/Action-Status/Acknowldge Error.vi"/>
+			<Item Name="Acknowldge Quench.vi" Type="VI" URL="../Public/Action-Status/Acknowldge Quench.vi"/>
+			<Item Name="Start.vi" Type="VI" URL="../Public/Action-Status/Start.vi"/>
+			<Item Name="Quench.vi" Type="VI" URL="../Public/Action-Status/Quench.vi"/>
+			<Item Name="Stop.vi" Type="VI" URL="../Public/Action-Status/Stop.vi"/>
+			<Item Name="Auto Mute.vi" Type="VI" URL="../Public/Action-Status/Auto Mute.vi"/>
+			<Item Name="Enable Mute.vi" Type="VI" URL="../Public/Action-Status/Enable Mute.vi"/>
+			<Item Name="Mute All.vi" Type="VI" URL="../Public/Action-Status/Mute All.vi"/>
+			<Item Name="Temperature.vi" Type="VI" URL="../Public/Action-Status/Temperature.vi"/>
+			<Item Name="Rack Status.vi" Type="VI" URL="../Public/Action-Status/Rack Status.vi"/>
+			<Item Name="Detector Status.vi" Type="VI" URL="../Public/Action-Status/Detector Status.vi"/>
+			<Item Name="Hardware Status.vi" Type="VI" URL="../Public/Action-Status/Hardware Status.vi"/>
+			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
-			<Item Name="Configure.mnu" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/Public/Configure/Configure.mnu"/>
+			<Item Name="Configure.mnu" Type="Document" URL="../Public/Configure/Configure.mnu"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
-			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/Public/Data/Data.mnu"/>
-			<Item Name="Detector ADC.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Data/Detector ADC.vi"/>
+			<Item Name="Detector ADC.vi" Type="VI" URL="../Public/Data/Detector ADC.vi"/>
+			<Item Name="Data.mnu" Type="Document" URL="../Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Utility/Reset.vi"/>
-			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Utility/Revision Query.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Utility/Self-Test.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
+			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
+			<Item Name="Utility.mnu" Type="Document" URL="../Public/Utility/Utility.mnu"/>
 		</Item>
-		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/Public/dir.mnu"/>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/Initialize.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Public/VI Tree.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
+		<Item Name="dir.mnu" Type="Document" URL="../Public/dir.mnu"/>
 	</Item>
-	<Item Name="KIT QV Readme.html" Type="Document" URL="/&lt;instrlib&gt;/KIT QV/KIT QV Readme.html"/>
 </Library>
