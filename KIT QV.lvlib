@@ -16,7 +16,7 @@ Dr. Holger Brand, RBEE, Planckstr.1, 64291 Darmstadt, Germany
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Example" Type="Folder">
-		<Item Name="Read Status Example.vi" Type="VI" URL="/&lt;instrlib&gt;/KIT QV/Examples/Read Status Example.vi"/>
+		<Item Name="Read Status Example.vi" Type="VI" URL="../Examples/Read Status Example.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -30,8 +30,7 @@ Dr. Holger Brand, RBEE, Planckstr.1, 64291 Darmstadt, Germany
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name="Acknowldge Error.vi" Type="VI" URL="../Public/Action-Status/Acknowldge Error.vi"/>
-			<Item Name="Acknowldge Quench.vi" Type="VI" URL="../Public/Action-Status/Acknowldge Quench.vi"/>
+			<Item Name="Acknowledge Fault.vi" Type="VI" URL="../Public/Action-Status/Acknowledge Fault.vi"/>
 			<Item Name="Start.vi" Type="VI" URL="../Public/Action-Status/Start.vi"/>
 			<Item Name="Quench.vi" Type="VI" URL="../Public/Action-Status/Quench.vi"/>
 			<Item Name="Stop.vi" Type="VI" URL="../Public/Action-Status/Stop.vi"/>
