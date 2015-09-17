@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="14008000">
+<Library LVVersion="15008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 QVision  for IPE-Quench Detection System UNIQD Typ 3410/3420.
@@ -11,12 +11,13 @@ Lizenziert unter EUPL V. 1.1
 Copyright 2015 GSI Helmholtzzentrum für Schwerionenforschung GmbH
 Dr. Holger Brand, RBEE, Planckstr.1, 64291 Darmstadt, Germany
 </Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\:7R&lt;2N"%%8`'1[=KA/$I&gt;.JA3WQB7G"K5+'FK$!0X@%#ASQ!W.;9!NMA8KX(&amp;%G$*/*"&gt;C!&gt;DH(OT_T-_^WFUNJN%`32RVPN&lt;OL&lt;@;0$XX%(PPJQP]3^"J\Y4]\`O#`'.^2P^=`K;^X:`^V@FVN\`ZX```NP^')O&lt;]:^-:.GA9J6JCRR'+]X&lt;(1#\X1#\X1#^XI2D?[U9VO^%20^%20^%20^%!0^%!0^%!0^.(2B3ZUI4-L2@'C5*'U3&amp;!%A[,C5P!50!60Q=/D#J[#J_!J?!I?1F4Q&amp;$Q&amp;4]&amp;4]$"-"5`"5`!50!50K1:*D9Y/4]&amp;$?BE?QW.Y$)`BI;1-DQ%QR5RCEQ1-';?Z-4S'R`"Q+].D?!S0Y4%]O'6Y$)`B-4S'BS&amp;D6DRIZIY/$WG5]#1]#5`#E`#17AF0QJ0Q*$Q*$_75]#1]#523-%E/AJ*"35$SE0!E0(QJY5FY%J[%*_(".69IR]T-.(.(BS@A#8A#HI!HY#'&amp;!J[!*_!*?!)?UCLA#8A#HI!HY+'5!J[!*_!*1)+CF&amp;?1,"A9"!6#Q-.H\*99K_2"%K0X4`/U5&gt;5&lt;5,WRV"N'P2(5#[R?/07#K#&gt;;09(KC6'`M0J&amp;V)$KQOK%[E!&gt;O/[R(&lt;&lt;&amp;.NA;7W&amp;,&lt;)(&gt;T50`=O$B=."_P^&gt;ON^.WO^6GM^&amp;[P&gt;:KN&gt;*SO&gt;2CM2"`QO@4[D0^V+;8=_G?_]=@0[?HBS`4._TJ94E^@PU_T@J&lt;WOF=_B@/2HX1]:&gt;DHDF["MD",`I!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\:7R&lt;2N"%%8`'1[=KA/$I&gt;.JA3WQB7G"K5+'FK$!0X@%#ASQ!W.;9!NMA8KX(&amp;%G$*/*"&gt;C!&gt;DH(OT_T-_^WFUNJN%`32RVPN&lt;OL&lt;@;0$XX%(PPJQP]3^"J\Y4]\`O#`'.^2P^=`K;^X:`^V@FVN\`ZX```NP^')O&lt;]:^-:.GA9J6JCRR'+]X&lt;(1#\X1#\X1#^XI2D?[U9VO^%20^%20^%20^%!0^%!0^%!0^.(2B3ZUI4-L2@'C5*'U3&amp;!%A[,C5P!50!60Q=/D#J[#J_!J?!I?1F4Q&amp;$Q&amp;4]&amp;4]$"-"5`"5`!50!50K1:*D9Y/4]&amp;$?BE?QW.Y$)`BI;1-DQ%QR5RCEQ1-';?Z-4S'R`"Q+].D?!S0Y4%]O'6Y$)`B-4S'BS&amp;D6DRIZIY/$WG5]#1]#5`#E`#17AF0QJ0Q*$Q*$_75]#1]#523-%E/AJ*"35$SE0!E0(QJY5FY%J[%*_(".69IR]T-.(.(BS@A#8A#HI!HY#'&amp;!J[!*_!*?!)?UCLA#8A#HI!HY+'5!J[!*_!*1)+CF&amp;?1,"A9"!6#Q-.H\*99K_2"%K0X4`/U5&gt;5&lt;5,WRV"N'P2(5#[R?/07#K#&gt;;09(KC6'`M0J&amp;V)$KQOK%[E!&gt;O/[R(&lt;&lt;&amp;.NA;7W&amp;,&lt;)(&gt;T50`=O$B=."_P^&gt;ON^.WO^6GM^&amp;[P&gt;:KN&gt;*SO&gt;2CM2"`QO@4[D0^V+;8=_G?_]=@0[?HBS`4._TJ94E^@PU_T@J&lt;WOF=_B@/2HX1]:&gt;DHDF["MD",`I!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Example" Type="Folder">
 		<Item Name="Read Status Example.vi" Type="VI" URL="../Examples/Read Status Example.vi"/>
+		<Item Name="Test Read Raw Data.vi" Type="VI" URL="../Examples/Test Read Raw Data.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
